@@ -13,11 +13,20 @@
       <label for="new-task-description">Task description:</label>
       <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
       <input type="submit" value="Create New Task">
+      <select id="priority">
+        <option value="high">High Priority</option>
+        <option value="medium">Medium Priority</option>
+        <option value="low">Low Priority</option>
+      </select>
     </form>
 
     <div id="list">
       <h2>My Todos:</h2>
-      <ul id="tasks">
+      <ul id="high-tasks">
+      </ul>
+      <ul id="medium-tasks">
+      </ul>
+      <ul id="low-tasks">
       </ul>
     </div>
 
